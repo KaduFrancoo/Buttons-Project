@@ -1,0 +1,70 @@
+#Dbutton-bf{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.button-bf{
+    height: 150px;
+    width: 390px;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(161, 0, 161);
+    border: solid, 1px, rgb(161, 0, 161);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.button-bf:hover{
+    color: white;
+    background-color: rgb(161, 0, 161);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.button-bf:active{
+    opacity: 0.7;
+    scale: 1.025;
+}
+
+#button-feio{
+    margin-left: 40px;
+}
+
+#Dbutton-pr{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.button-pr{
+    height: 100px;
+    width: 410px;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(238, 255, 0);
+    cursor: pointer;
+    transition: all 0.15s;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.button-pr:hover{
+    scale: 0.975;
+    opacity: 0.75;
+}
+
+.button-pr:active{
+    opacity: 0.5;
+}
+
+#button-roubar{
+    margin-left: 20px;
+}
